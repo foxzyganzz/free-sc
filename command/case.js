@@ -1567,7 +1567,7 @@ break
 
 case 'menu': case 'help':
 if (!isHaruka) return sendButMessage(from, lang.noregis(pushname), `Klik Button Untuk Verify`, [{buttonId: '.daftar',buttonText: {displayText: `Daftar`,},type: 1,}], {quoted: fgif});
-sendButLocation(from, '🙅‍♀️ Halo Kak Saya FoxzyBotz *_\n\n • Nama Botz: FoxzyBotzWA\n • Nomor Owner:\nwa.me/6281386383559\n• Jangan Spam Ya Kak\n• Nama Owner : FoxzyWasHere\n• SC BASE:ZEEONE OFC\n RECODE BY: FOXZY WAS HERE\n• JANGAN LUPA SUBS:\n- ZEEONE OFC\n -FoxzyMods\nJoin Grup:https://chat.whatsapp.com/ExiDZoKE1Nr3VP0F8ZK6zs\n *SILAHKAN PENCET MENU DI BAWAH UNTUK MELIHAT MENU BOT*\n\n@FOXZYBOTZWA\n', '© ' + ownername, thumbnail, [{buttonId: `.oh ${q}`, buttonText: {displayText: 'MENU🧸'}, type: 1},{buttonId: `.listnya ${q}`, buttonText:{displayText: 'MENU STORE🛒'}, type: 1},{buttonId: `.donasi ${q}`, buttonText:{displayText: 'DONASI'}, type: 1}], {quoted: mek})
+sendButLocation(from, '🙅‍♀️ Halo Kak Saya FoxzyBotz *_\n\n • Nama Botz: FoxzyBotzWA\n • Nomor Owner:\nwa.me/6281386383559\n• Jangan Spam Ya Kak\n• Nama Owner : FoxzyWasHere\n• SC BASE:ZEEONE OFC\n RECODE BY: FOXZY WAS HERE\n• JANGAN LUPA SUBS:\n- ZEEONE OFC\n -FoxzyMods\nJoin Grup:https://chat.whatsapp.com/ExiDZoKE1Nr3VP0F8ZK6zs\nSILAHKAN PENCET MENU DI BAWAH UNTUK MELIHAT MENU BOT\n\n*JIKA MENU TIDAK MUNCUL KETIK .oh*\n', '© ' + ownername, thumbnail, [{buttonId: `.oh ${q}`, buttonText: {displayText: 'MENU🧸'}, type: 1},{buttonId: `.listnya ${q}`, buttonText:{displayText: 'MENU STORE🛒'}, type: 1},{buttonId: `.donasi ${q}`, buttonText:{displayText: 'DONASI'}, type: 1}], {quoted: mek})
 break
 
 case 'oh': case 'ohh':
